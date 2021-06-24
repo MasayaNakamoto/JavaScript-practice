@@ -28,3 +28,6 @@
 //     $('ul').children().css('color','red');
 //   });
 // });
+
+
+// skippr開始
