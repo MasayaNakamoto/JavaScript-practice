@@ -9,11 +9,15 @@
 //   });
 // });
 
-$(function(){
-  $('.box1').slideUp();
-});
+// $(function(){
+//   $('.box1').slideUp();
+// });
 
-$(function(){
-  $('.box1').show();
-  $('.box1').css({'background-color': '#0000FF'});
-});
+// $(function(){
+//   $('.box1').mouseover(function(){
+//     $('.box1').addClass('box1-ext');
+//   });
+//   $('.box1').mouseout(function(){
+//     $('.box1').removeClass('box1-ext');
+//   });
+// });
