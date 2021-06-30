@@ -20,3 +20,44 @@
   </body>
 </html> -->
 
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>JavaScript</title>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: skyblue;
+      cursor: pointer;
+      transition: 0.8s;
+    }
+
+    .circle {
+      background-color: pink;
+      border-radius: 50%;
+      transform: rotate(360deg);
+    }
+
+    /*  transform: rotate(360deg);は360ど回転　transition: 0.8s;は0，8秒で変化起こす*/
+  </style>
+</head>
+
+<body>
+  <div class="box" id="target"></div>
+  <script>
+    'use strict'
+
+    document.getElementById('target').addEventListener('click', () => {
+      // document.getElementById('target').style.background = 'pink';
+      // document.getElementById('target').style.borderRadius = '50%';
+      document.getElementById('target').classList.add('circle');
+    });
+
+    // documentは文章全体　getElementByIdは全体からIDを取得してねという意味
+    // addEventListenerは何かが起きたら何らかの処理をするという意味　addは追加
+    // () => {はアロー関数という
+  </script>
+</body>
